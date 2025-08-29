@@ -1,0 +1,30 @@
+body{
+	background-color: black;
+}
+nav{
+	 background-color: rgb(255, 255, 255);
+	 text-align: center;
+	 padding: 4%;
+}
+.person{
+	width: 300px;
+	height: 300px;
+	background-color: rgb(226, 225, 227);
+	margin: 10px;
+	padding: 2%;
+	font-size: 19px;
+	font-weight: 400;
+	color: brown;
+}
+.person img{
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+	object-position: center;
+}
+.amazing{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
